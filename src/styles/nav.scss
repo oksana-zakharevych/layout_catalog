@@ -21,7 +21,7 @@
     text-decoration: none;
     color: $text-color;
     position: relative;
-    transition: color 0.3s ease;
+    transition: color $transition-duration ease;
 
     &:hover,
     &.is-active {
